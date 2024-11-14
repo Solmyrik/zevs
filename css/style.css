@@ -543,6 +543,11 @@ body._lock::before {
   width: 100%;
   max-width: 1310px;
 }
+@media (max-width: 1800px) {
+  .sphere {
+    max-width: 100%;
+  }
+}
 .sphere img {
   width: 100%;
 }
