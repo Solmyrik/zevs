@@ -19,13 +19,17 @@
           <nav class="header__menu">
             <div class="header__body">
               <ul class="header__list">
-                <li class="header__item"><a href="" class="header__link">Что мы делаем</a></li>
                 <li class="header__item">
-                  <a href="" class="header__link">Почему выбирают нас</a>
+                  <a href="#doing" class="header__link">Что мы делаем</a>
                 </li>
-                <li class="header__item"><a href="" class="header__link">Как мы работаем</a></li>
-                <li class="header__item"><a href="" class="header__link">О компании</a></li>
-                <li class="header__item"><a href="" class="header__link">Отзывы</a></li>
+                <li class="header__item">
+                  <a href="#why" class="header__link">Почему выбирают нас</a>
+                </li>
+                <li class="header__item">
+                  <a href="#work" class="header__link">Как мы работаем</a>
+                </li>
+                <li class="header__item"><a href="#about" class="header__link">О компании</a></li>
+                <li class="header__item"><a href="#reviews" class="header__link">Отзывы</a></li>
               </ul>
               <ul class="header__icons">
                 <li class="header__icon">
@@ -121,7 +125,7 @@
             </div>
           </div>
         </section>
-        <section class="doing">
+        <section id="doing" class="doing">
           <div class="doing__container">
             <h2 class="doing__title">Что мы делаем:</h2>
             <div class="doing__body">
@@ -213,7 +217,7 @@
             </div>
           </div>
         </section>
-        <section class="why">
+        <section id="why" class="why">
           <div class="why__container">
             <div class="why__decor">
               <img src="img/why/decor.png" alt="decor" />
@@ -301,7 +305,7 @@
             </div>
           </div>
         </section>
-        <section class="work">
+        <section id="work" class="work">
           <div class="work__container">
             <div class="work__decor">
               <img src="img/work/decor.png" alt="decor" />
@@ -409,7 +413,7 @@
             </div>
           </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
           <div class="about__container">
             <h2 class="about__title">О компании</h2>
             <p class="about__description">
@@ -433,8 +437,134 @@
             </div>
           </div>
         </section>
+        <section id="reviews" class="reviews">
+          <div class="reviews__container">
+            <div class="reviews__decor"><img src="img/reviews/decor.png" alt="decor" /></div>
+            <h2 class="reviews__title">Отзывы партнеров</h2>
+            <div class="reviews__body">
+              <article class="reviews__item">
+                <div class="reviews__wrapper">
+                  <img src="img/reviews/proto.jpg" alt="proto" />
+                </div>
+              </article>
+              <article class="reviews__item">
+                <div class="reviews__wrapper">
+                  <img src="img/reviews/proto.jpg" alt="proto" />
+                </div>
+              </article>
+              <article class="reviews__item">
+                <div class="reviews__wrapper">
+                  <img src="img/reviews/proto.jpg" alt="proto" />
+                </div>
+              </article>
+              <article class="reviews__item">
+                <div class="reviews__wrapper">
+                  <img src="img/reviews/proto.jpg" alt="proto" />
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="attention">
+          <div class="attention__container">
+            <div class="attention__decor">
+              <img src="img/attention/decor.png" alt="decor" />
+            </div>
+            <div class="attention__decor-mob">
+              <img src="img/attention/decor-mob.png" alt="decor" />
+            </div>
+            <div class="contact__body">
+              <div class="contact__wrapper">
+                <h2 class="contact__title">Связаться с нами</h2>
+                <div class="contact__description">
+                  Проведем исследование рынка, оценим риски и подберем оптимальные решения
+                </div>
+                <div class="contact__links">
+                  <a href="" target="_blank" class="contact__link">
+                    <img src="img/icons/email-black.svg" alt="email" />
+                    <p>Почта</p>
+                  </a>
+                  <a href="" target="_blank" class="contact__link">
+                    <img src="img/icons/telegram-black.svg" alt="telegram" />
+                    <p>Telergam</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p class="attention__text">
+              <span>ВНИМАНИЕ!</span> В рамках спецификации современных стандартов, некоторые
+              особенности внутренней политики, инициированные исключительно синтетически,
+              функционально разнесены на независимые элементы. В рамках спецификации современных
+              стандартов, некоторые особенности внутренней политики, инициированные исключительно
+              синтетически, функционально разнесены на независимые элементыю В рамках спецификации
+              современных стандартов, некоторые особенности внутренней политики, инициированные
+              исключительно синтетически, функционально разнесены на независимые элементы
+            </p>
+            <div class="attention__arrow">
+              <img src="img/attention/arrow.svg" alt="arrow" />
+            </div>
+            <div class="attention__arrow-mob">
+              <img src="img/attention/arrow-mob.svg" alt="arrow" />
+            </div>
+            <div class="attention__label">
+              <div class="attention__wrapper">
+                <span>Внимание!</span>
+                В рамках спецификации современных стандартов, некоторые особенности внутренней
+                политики,
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__body">
+            <div class="footer__wrapper">
+              <div class="footer__column">
+                <a href="" class="footer__logo">
+                  <img src="img/icons/logo.png" alt="logo" />
+                </a>
+                <p class="footer__text">ООО “Технологии” 2012-2024</p>
+                <a href="" class="footer__policy">Политика конфиденциальности</a>
+              </div>
+
+              <div class="footer__column">
+                <h3 class="footer__title">Навигация</h3>
+                <nav class="footer__menu">
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="#doing" class="footer__link">Что мы делаем</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#why" class="footer__link">Почему выбирают нас</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#work" class="footer__link">Как мы работаем</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#about" class="footer__link">О компании</a>
+                    </li>
+                    <li class="footer__item"><a href="#reviews" class="footer__link">Отзывы</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__column">
+                <h3 class="footer__title">Связаться с нами:</h3>
+                <div class="footer__links">
+                  <a href="" target="_blank" class="footer__link-icon">
+                    <img src="img/icons/email-black.svg" alt="email" />
+                    <p>Почта</p>
+                  </a>
+                  <a href="" target="_blank" class="footer__link-icon">
+                    <img src="img/icons/telegram-black.svg" alt="telegram" />
+                    <p>Telergam</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

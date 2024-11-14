@@ -14,7 +14,11 @@ menuClose.addEventListener('click', (e) => {
 });
 
 document.addEventListener('click', (e) => {
-  if (e.target.classList.contains('_lock')) {
+  if (
+    e.target.classList.contains('_lock') ||
+    e.target.classList.contains('header__item') ||
+    e.target.classList.contains('header__link')
+  ) {
     menuBody.classList.remove('active');
     body.classList.remove('_lock');
   }
