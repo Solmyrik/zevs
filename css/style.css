@@ -1310,6 +1310,12 @@ body._lock::before {
 
 .attention {
   padding-top: 100px;
+  margin-bottom: 200px;
+}
+@media (max-width: 992px) {
+  .attention {
+    margin-bottom: 80px;
+  }
 }
 .attention__container {
   position: relative;
@@ -1348,7 +1354,7 @@ body._lock::before {
 .attention__text {
   padding-top: 500px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
@@ -1367,6 +1373,7 @@ body._lock::before {
 }
 .attention .contact__wrapper {
   top: -50px;
+  z-index: 3;
 }
 .attention__arrow {
   text-align: center;
@@ -1626,4 +1633,46 @@ body._lock::before {
 
 ._anim._active {
   opacity: 1;
+}
+
+.video-block__title {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 120%;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.7) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 60px;
+}
+@media (max-width: 992px) {
+  .video-block__title {
+    font-size: 30px;
+    margin-bottom: 36px;
+  }
+}
+.video-block__body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.video-block__video {
+  position: relative;
+  width: 70%;
+  padding-bottom: 46.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-block__video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .video-block__video {
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
 }
